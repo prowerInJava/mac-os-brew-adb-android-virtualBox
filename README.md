@@ -1,5 +1,6 @@
-# MACOS brew adb android-virtualBox
+# MacOS 配置安卓测试环境
   Mac os环境配置安卓虚拟机. 
+  安装：brew adb android-virtualBox等. 
   
 ## 首先安装brew
 Homebrew是一款Mac OS上的软件包管理工具，自己电脑上有的话不需要重复安装
