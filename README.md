@@ -29,3 +29,7 @@ Homebrew是一款Mac OS上的软件包管理工具，自己电脑上有的话不
   
 ## uiautomator测试并初始化安卓模拟器
   `python3 -m uiautomator2 init`. 
+  
+## 安装weditor
+  `pip3 install -U weditor`. 
+  
