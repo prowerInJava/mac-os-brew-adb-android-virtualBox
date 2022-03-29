@@ -1,5 +1,6 @@
 # MacOS 配置安卓测试环境
   Mac os环境配置安卓虚拟机. 
+  
   安装：brew adb android-virtualBox等. 
   
 ## 首先安装brew
