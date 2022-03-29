@@ -15,6 +15,8 @@ Homebrew是一款Mac OS上的软件包管理工具，自己电脑上有的话不
   使用brew工具安装：
   `brew install --cask android-platform-tools`. 
   
+  自然如果是卸载就是用`uninstall`命令. 
+  
   查看安装位置：
   `brew info --cask android-sdk`. 
   
@@ -32,4 +34,10 @@ Homebrew是一款Mac OS上的软件包管理工具，自己电脑上有的话不
   
 ## 安装weditor
   `pip3 install -U weditor`. 
+
+## adb连接android模拟器
+  `cd /Applications/LocalSetup/Nox\ App\ Player.app`. 
+  
+  `adb connect 127.0.0.1:62001` 显示connected就是ok. 
+  
   
