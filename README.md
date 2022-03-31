@@ -41,9 +41,10 @@ Homebrew是一款Mac OS上的软件包管理工具，自己电脑上有的话不
   `adb connect 127.0.0.1:62001` 显示connected就是ok. 
   
 ## 解决adb devices报错
-  如果报错显示:`adb server version (32) doesn't match this client (41);killing ... `. 
-  表示adb 5037端口被占用了. 
-  macos: `lsof -i:5037` 查看占用5037进程的pid
+  如果报错显示:`adb server version (32) doesn't match this client (41);killing ... ` 表示adb 5037端口被占用了. 
+  
+  macos: `lsof -i:5037` 查看占用5037进程的pid. 
+  
   杀进程: `kill -9 <pid num>` 
   
   
